@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat";
-    padding-top: 50px;
+    font-size:20px;
+    padding-top: 45px;
 }
 
 .navbar {
@@ -17,7 +18,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 1000;
 }
 
 .navbar li {
@@ -68,4 +69,12 @@ body {
 .navbar li:last-child .dropdown {
     left: auto;
     right: 0;
+}
+
+#bannerimg{
+    size:cover;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
