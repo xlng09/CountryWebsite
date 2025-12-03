@@ -112,11 +112,14 @@ body {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
 }
 
-.heading{
-    color: #ffffff;
-    position:absolute;
-    right:500px;
-    top:500px;
-    z-index: 1000;
-    font-size:150px;
+.hp{
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.hmp{
+    display:flex;
+    flex:1;
+    margin: 50px;
 }
