@@ -44,7 +44,7 @@ body {
     text-decoration: none;
     padding: 16px 24px;
     font-size: 15px;
-    transition: 0.25s ease;
+    transition: 0.25s;
 }
 
 .navbar li > a:hover {
@@ -76,11 +76,6 @@ body {
 
 .navbar li:hover .dropdown {
     display: block;
-}
-
-.navbar li:last-child .dropdown {
-    left: auto;
-    right: 0;
 }
 
 .banner {
